@@ -1,0 +1,203 @@
+.contenedorTotal{
+    
+    max-width: 250px;
+    margin: -250px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descuentos{
+max-width: 100%;
+height: auto;
+margin: 0 auto;
+
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+}
+.descuentos >*{
+    box-shadow: 1px 2px .2rem .1rem gray;
+    margin-top: 10px;
+    
+}
+.descuentos__descuento{
+max-width: 300px;
+height: 180px;
+margin: 8px;
+padding: 10px;
+
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+transition: transform .5s;
+}
+
+.descuentos__descuento:hover{
+    transform: scale(1.05);
+}
+
+ .descuento__opciones{
+   color: black;
+   font-size: 1.2rem;
+   font-weight: bold;
+}
+
+.descuento__texto{
+color: rgb(87, 86, 86);
+font-size: 0.9rem;
+}
+
+.descuento__porcentaje{
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+
+.descuento__requerimientos{
+    color: rgb(87, 86, 86);
+    font-size: 0.8rem;
+} 
+
+.border-azul{
+    border: 1.3px solid rgb(0, 123, 255);
+   
+}
+
+
+.border-celeste{
+    border: 1.3px solid rgb(23, 162, 184);
+    
+}
+
+
+.border-amarillo{
+    border: 1.3px solid rgb(255, 193, 7);
+    
+}
+
+
+
+.h1-tickets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   text-shadow: 2.5px 0 rgb(209, 207, 207);
+    margin: 70px 0;
+    
+   
+   }
+
+.h1-tickets__venta{
+    font-size: .5rem;
+    margin-bottom: 5px;
+  }
+
+  .h1-tickets__valor{
+    font-size: 1rem;
+  }
+
+
+
+
+/*...........FORMULARIO-TICKETS...............*/
+
+.formularioOrador__formulario{
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.formulario__inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  
+
+}
+
+.inputs__input{
+    color: red;
+    width: 49%;
+    border: 1px solid rgba(128, 128, 128, 0.738);
+    border-radius: 4px;
+   margin: 10px 0;
+   font-size: .75rem;
+   padding: 4px 6px;
+}
+
+.resumenes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.width-49{
+    display: inline-block;
+    width: 49%;
+}
+
+.inputs__div{
+    width: 49%;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.inputs__div >*{
+    width: 100%;
+    text-align: start;
+}
+
+.totalAPagar{
+    width: 100%;
+    font-size: 1rem;
+    color: rgb(0, 100, 184);
+    background-color: rgb(204, 229, 255);
+    border-radius: 4px;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+
+@media screen and (min-width: 768px){
+    .contenedorTotal{
+    
+        max-width: 580px;
+        margin: -260px auto;
+    }
+    .descuentos{
+      
+        justify-content: space-between;
+        }
+        
+.h1-tickets__venta{
+    font-size: .6rem;
+    
+  }
+
+  .h1-tickets__valor{
+    font-size: 1.5rem;
+  }
+
+}
+
+
+
+@media screen and (min-width: 992px){
+    .contenedorTotal{
+    
+   
+        margin: 160px auto;
+    }
+
+}
